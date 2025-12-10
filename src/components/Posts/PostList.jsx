@@ -139,7 +139,7 @@ export default function PostList() {
         </button>
       </div>
 
-      {/* MENSAJE SIMPLE PARA USUARIOS NO AUTENTICADOS */}
+      {/* MENSAJE PARA USUARIOS NO AUTENTICADOS */}
       {!currentUser && (
         <div style={{
           marginTop: '2rem',

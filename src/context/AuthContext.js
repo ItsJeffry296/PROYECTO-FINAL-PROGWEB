@@ -22,11 +22,11 @@ export function AuthProvider({ children }) {
 
   async function register(email, password, nombre, apellido) {
     try {
-      // 1. Crear usuario en Authentication
+      // Crear usuario en Authentication
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       
-      // 2. Guardar datos adicionales en Firestore
+      // Guardar datos adicionales en Firestore
       await setDoc(doc(db, "users", user.uid), {
         usuario: email.split('@')[0],
         email: email,

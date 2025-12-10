@@ -9,4 +9,3 @@ Sistema WEB de muro social desarrollada con React y Firebase.
 ![captura3](./miproyecto3.png)
 ![captura4](./miproyecto4.png)
 ![captura5](./miproyecto5.png)
-
